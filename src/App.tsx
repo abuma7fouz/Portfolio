@@ -81,7 +81,7 @@ export default function App() {
       name: 'HR Analytics Dashboard',
       desc: 'An interactive Power BI dashboard designed to analyze HR data and monitor workforce performance, including employee count, attrition, age distribution, experience, department performance, and salary insights. The dashboard enables HR teams to make data-driven decisions through interactive visualizations and filters.',
       tools: ['Power BI', 'DAX', 'Power Query', 'Excel'],
-      image: '/project-hr.png',
+      image: import.meta.env.BASE_URL + "project-hr.png",
       link: ''
     },
     {
@@ -90,7 +90,7 @@ export default function App() {
       name: 'Emotion Recognition',
       desc: 'Developed a Convolutional Neural Network (CNN) from scratch for facial emotion recognition. The model classifies multiple human emotions and is deployed as a web application for real-time emotion prediction through an intuitive interface.',
       tools: ['Python', 'TensorFlow', 'Keras', 'OpenCV', 'Flask', 'CNN'],
-      image: '/project-emotion.jpg',
+      image: import.meta.env.BASE_URL + "project-emotion.jpg",
       link: ''
     },
     {
@@ -99,7 +99,7 @@ export default function App() {
       name: 'EduBot AI Assistant',
       desc: 'Educational assistant chatbot powered by BERT, DistilBART, and T5 models. Capable of parsing complex curriculum texts, answering queries dynamically, generating custom summaries, and compiling quizzes.',
       tools: ['Python', 'FastAPI', 'Next.js', 'PyTorch', 'Transformers'],
-      image: '/project-edubot.jpg',
+      image: import.meta.env.BASE_URL + "project-edubot.jpg",
       link: 'https://github.com/abuma7fouz/EduBot-AI-Assistant-using-Transformer-Models'
     },
     {
@@ -108,7 +108,7 @@ export default function App() {
       name: 'Multilabel CXR-14 Disease Detection',
       desc: 'Detects fourteen thoracic diseases from chest X-rays using ResNet50. Implements transfer learning, multi-label classification, Focal Loss to address dataset imbalances, and Streamlit deployment.',
       tools: ['Python', 'PyTorch', 'ResNet50', 'Streamlit', 'Transfer Learning'],
-      image: '/project-cxr14.jpg',
+      image: import.meta.env.BASE_URL + "project-cxr14.jpg",
       link: 'https://github.com/abuma7fouz/Multilabel-Chest-Xray14-Classification-using-ResNet50'
     },
     {
@@ -117,7 +117,7 @@ export default function App() {
       name: 'Fashion Multi-Label Classification',
       desc: 'Interactive computer vision system that recognizes multiple clothing attributes (type, color, style, fabric) from a single image in real-time. Features multi-head classifiers.',
       tools: ['Python', 'YOLOv8', 'PyTorch', 'FastAPI', 'OpenCV'],
-      image: '/project-fashion.jpg',
+      image: import.meta.env.BASE_URL + "project-fashion.jpg",
       link: ''
     },
     {
