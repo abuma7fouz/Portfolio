@@ -269,7 +269,10 @@ export default function App() {
                 </div>
 
                 <div className="magnetic-node">
-                  <ProfilePlaceholder imageUrl="/profile-hero.jpg" type="hero" />
+                  <ProfilePlaceholder
+                    imageUrl={import.meta.env.BASE_URL + "profile-hero.jpg"}
+                    type="hero"
+                    />
                 </div>
 
                 <div className="space-y-3">
@@ -328,7 +331,10 @@ export default function App() {
                 className="w-full max-w-5xl flex flex-col md:flex-row items-center gap-8 md:gap-12 text-left"
               >
                 <div className="w-full md:w-[35%] flex justify-center magnetic-node shrink-0">
-                  <ProfilePlaceholder imageUrl="/profile-about.jpg" type="about" />
+                  <ProfilePlaceholder
+                    imageUrl={import.meta.env.BASE_URL + "profile-about.jpg"}
+                    type="about"
+                    />
                 </div>
 
                 <div className="w-full md:w-[65%] space-y-6">
