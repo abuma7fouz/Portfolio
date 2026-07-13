@@ -126,7 +126,7 @@ export default function App() {
       name: 'SmartPlate Recognition',
       desc: 'Real-time License Plate Recognition system incorporating camera streaming, YOLOv8 object detection, OCR string extraction, regex format filtering, and a FastAPI statistics dashboard.',
       tools: ['Python', 'YOLOv8', 'FastAPI', 'OpenCV', 'React', 'Regex'],
-      image: '/project-plate.png',
+      image: import.meta.env.BASE_URL + "project-plate.png",
       link: ''
     }
   ];
